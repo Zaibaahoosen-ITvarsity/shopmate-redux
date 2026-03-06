@@ -1,7 +1,6 @@
 	import { useSelector } from "react-redux";
 	import { Link, NavLink } from "react-router-dom"; 
 	import Logo from "../assets/logo.png"
-	import { useCart } from "../context/CartContext";
 	import "./Header.css";
 	
 	export const Header = () => {
